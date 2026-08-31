@@ -144,11 +144,4 @@ this is a Chrome restriction, not a bug
 → The backend sends permissive CORS headers automatically (see `app.py`).
 Make sure you're hitting `http://localhost:5000`, not `127.0.0.1`, consistently.
 
-## 8. Next steps (from here, you're in "Phase 4" of the roadmap)
 
-- Add user accounts (Flask-Login + password hashing) so this works for
-  multiple people / across devices
-- Deploy backend to Railway/Render and update `API_BASE` in the extension
-- Publish the extension to the Chrome Web Store ($5 one-time fee)
-- Add a proper flashcard quiz UI (currently the dashboard shows due-review
-  rows — wrap these in a swipeable card view)
